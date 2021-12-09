@@ -8,7 +8,7 @@ public class FPSController : MonoBehaviour
     public float walkingSpeed = 7.5f;
     public float runningSpeed = 11.5f;
     public float jumpSpeed = 8.0f;
-    public float gravity = 20.0f;
+    public float gravity;
     public Camera playerCamera;
     public float lookSpeed; //How fast we can look around
     public float lookXLimit = 45.0f; //How high u can look
@@ -55,7 +55,7 @@ public class FPSController : MonoBehaviour
         // Apply gravity. Gravity is multiplied by deltaTime twice (once here, and once below
         // when the moveDirection is multiplied by deltaTime). This is because gravity should be applied
         // as an acceleration (ms^-2)
-        if(!characterController.isGrounded)
+        if(!characterController.isGrounded && !reverseG)
         {
             moveDirection.y -= gravity * Time.deltaTime;
         }
@@ -74,7 +74,6 @@ public class FPSController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        float m_thrust = 10000f;
         if (reverseG)
         {
             playerRb.AddForce(-1 * Physics.gravity, ForceMode.Acceleration);
@@ -92,8 +91,13 @@ public class FPSController : MonoBehaviour
             Debug.Log("gravity reversed");
             playerRb.useGravity = false;
             reverseG = true;
-            gravity = 0;
-            
+        }
+
+        if(other.gameObject.CompareTag("Gravity"))
+        {
+            playerRb.useGravity = true;
+            Debug.Log("gravity back to normal");
+            reverseG = false;
         }
     }
 }
