@@ -4,16 +4,20 @@ using UnityEngine;
 
 public class Fan : MonoBehaviour
 {
+    float rotationSpeed;
+    TimeControl timeControl;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        timeControl = GameObject.Find("Levels").GetComponent<TimeControl>();
+        rotationSpeed = 10f;
     }
 
     // Update is called once per frame
     void Update()
     {
-        float rotationSpeed = 10f;
-        transform.Rotate(new Vector3 (0, Time.deltaTime * rotationSpeed, 0));
+        float tc = timeControl.t;
+        transform.Rotate(new Vector3 (0, Time.deltaTime * rotationSpeed * tc,  0));
     }
 }
