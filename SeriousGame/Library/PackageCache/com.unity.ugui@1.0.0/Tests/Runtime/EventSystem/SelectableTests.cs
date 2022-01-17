@@ -356,7 +356,6 @@ namespace UnityEngine.UI.Tests
         }
 
         [Test]
-<<<<<<< HEAD
         public void PointerEnterOnSelectedObjectShouldStaySelected()
         {
             selectable.InvokeOnSelect(null);
@@ -369,8 +368,6 @@ namespace UnityEngine.UI.Tests
         }
 
         [Test]
-=======
->>>>>>> master
         public void PointerEnterAndRightClickShouldHighlightNotPress()
         {
             Assert.True(selectable.isStateNormal);
