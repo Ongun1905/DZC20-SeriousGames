@@ -5,16 +5,26 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< HEAD
       ticks: 637780275858708738
     m_Hash: 2131605761
+=======
+      ticks: 637780280025823747
+    m_Hash: 2955065684
+>>>>>>> master
   m_LockFileStatus:
     m_FilePath: C:/Users/Ongun1905/Documents/GitHub/DZC20-SeriousGames/SeriousGame/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< HEAD
       ticks: 637780276031878907
     m_Hash: 874940803
+=======
+      ticks: 637780280154388216
+    m_Hash: 289091398
+>>>>>>> master
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,6 +32,7 @@ m_LocalPackages:
 m_ProjectPath: C:/Users/Ongun1905/Documents/GitHub/DZC20-SeriousGames/SeriousGame/Packages
 m_EditorVersion: 2021.2.7f1 (6bd9e232123f)
 m_ResolvedPackages:
+<<<<<<< HEAD
 - packageId: com.unity.2d.sprite@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -481,6 +492,8 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.6.0
     nextVersion: 
+=======
+>>>>>>> master
 - packageId: com.unity.collab-proxy@1.15.4
   testable: 0
   isDirectDependency: 1
@@ -822,6 +835,7 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.2.4
     nextVersion: 
+<<<<<<< HEAD
 - packageId: com.unity.purchasing@4.1.1
   testable: 0
   isDirectDependency: 1
@@ -1085,6 +1099,8 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 12.1.2
     nextVersion: 
+=======
+>>>>>>> master
 - packageId: com.unity.test-framework@1.1.29
   testable: 0
   isDirectDependency: 1
@@ -1539,6 +1555,7 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+<<<<<<< HEAD
 - packageId: com.unity.xr.legacyinputhelpers@2.1.8
   testable: 0
   isDirectDependency: 1
@@ -1632,6 +1649,8 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 2.1.8
     nextVersion: 
+=======
+>>>>>>> master
 - packageId: com.unity.modules.ai@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -3428,6 +3447,7 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.6
     nextVersion: 
+<<<<<<< HEAD
 - packageId: com.unity.mathematics@1.2.5
   testable: 0
   isDirectDependency: 0
@@ -3828,14 +3848,30 @@ m_ResolvedPackages:
   assetPath: Packages/com.unity.services.core
   name: com.unity.services.core
   displayName: Services Core
+=======
+- packageId: com.unity.nuget.newtonsoft-json@2.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 2.0.0
+  source: 1
+  resolvedPath: C:\Users\Ongun1905\Documents\GitHub\DZC20-SeriousGames\SeriousGame\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0
+  assetPath: Packages/com.unity.nuget.newtonsoft-json
+  name: com.unity.nuget.newtonsoft-json
+  displayName: Newtonsoft Json
+>>>>>>> master
   author:
     name: 
     email: 
     url: 
   category: 
   type: 
+<<<<<<< HEAD
   description: 'This package defines common components used by multiple Game Service
     packages.
+=======
+  description: 'Newtonsoft Json for use in Unity projects and Unity packages. Currently
+    synced to version 12.0.2.
+>>>>>>> master
 
     These are standardized and aim to unify the overall experience
     of working with Game Services packages.'
@@ -3904,7 +3940,15 @@ m_ResolvedPackages:
   description: 'Newtonsoft Json for use in Unity projects and Unity packages. Currently
     synced to version 12.0.2.
 
+<<<<<<< HEAD
 
+    This package is used for advanced json serialization
+    and deserialization. Most Unity users will be better suited using the existing
+    json tools built into Unity.
+
+    To avoid assembly clashes, please use this
+    package if you intend to use Newtonsoft Json.'
+=======
     This package is used for advanced json serialization
     and deserialization. Most Unity users will be better suited using the existing
     json tools built into Unity.
@@ -3948,6 +3992,100 @@ m_ResolvedPackages:
   hasRepository: 1
   repository:
     type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.newtonsoft-json.git
+    revision: d2fd6ed876261bbd82f59199ad711e7667bf633a
+    path: 
+  unityLifecycle:
+    version: 2.0.0
+    nextVersion: 
+- packageId: com.unity.services.core@1.0.1
+  testable: 0
+  isDirectDependency: 0
+  version: 1.0.1
+  source: 1
+  resolvedPath: C:\Users\Ongun1905\Documents\GitHub\DZC20-SeriousGames\SeriousGame\Library\PackageCache\com.unity.services.core@1.0.1
+  assetPath: Packages/com.unity.services.core
+  name: com.unity.services.core
+  displayName: Services Core
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: 'This package defines common components used by multiple Game Service
+    packages.
+
+    These are standardized and aim to unify the overall experience
+    of working with Game Services packages.'
+>>>>>>> master
+  status: 4
+  errors: []
+  versions:
+    all:
+<<<<<<< HEAD
+    - 1.0.0-preview.2
+    - 1.0.0-preview.3
+    - 1.0.0-preview.4
+    - 1.0.1-preview.1
+    - 1.1.2
+    - 2.0.0-preview
+    - 2.0.0-preview.1
+    - 2.0.0-preview.2
+    - 2.0.0
+    - 2.0.1-preview.1
+    - 2.0.2
+    compatible:
+    - 2.0.0
+    - 2.0.1-preview.1
+    - 2.0.2
+    verified: 2.0.2
+  dependencies: []
+  resolvedDependencies: []
+=======
+    - 1.0.1
+    - 1.1.0-pre.7
+    - 1.1.0-pre.8
+    - 1.1.0-pre.9
+    - 1.1.0-pre.10
+    - 1.1.0-pre.11
+    - 1.1.0-pre.41
+    compatible:
+    - 1.0.1
+    - 1.1.0-pre.7
+    - 1.1.0-pre.8
+    - 1.1.0-pre.9
+    - 1.1.0-pre.10
+    - 1.1.0-pre.11
+    - 1.1.0-pre.41
+    verified: 1.0.1
+  dependencies:
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+>>>>>>> master
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+<<<<<<< HEAD
+  datePublishedTicks: 637237898320000000
+=======
+  datePublishedTicks: 637604883250000000
+>>>>>>> master
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+<<<<<<< HEAD
     url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.newtonsoft-json.git
     revision: d2fd6ed876261bbd82f59199ad711e7667bf633a
     path: 
@@ -4018,3 +4156,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 4.9.1
     nextVersion: 
+=======
+    url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
+    revision: 4cd880d4fd5c60597629249bf4f324e4c8d7aa2e
+    path: 
+  unityLifecycle:
+    version: 1.0.1
+    nextVersion: 1.1.0-pre.8
+>>>>>>> master

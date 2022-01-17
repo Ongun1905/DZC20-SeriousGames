@@ -1,5 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 7fa7865ae134c434cb220e2725cf8a35
+=======
+<<<<<<< HEAD:SeriousGame/Assets/Prefabs.meta
+guid: 772aa8de0e4fd2246bc467ffaafb9a4c
+=======
+guid: 7fa7865ae134c434cb220e2725cf8a35
+>>>>>>> master:SeriousGame/Assets/SimpleNaturePack.meta
+>>>>>>> master
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
