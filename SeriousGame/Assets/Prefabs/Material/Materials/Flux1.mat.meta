@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<< HEAD:SeriousGame/Assets/Prefabs/Material/Materials/Flux1.mat.meta
+guid: 4c566572a9b0c064c8af5e2355204725
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+=======
+guid: b82eeb1943bb545a9a1d312938518ac6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+>>>>>>> master:SeriousGame/Assets/Samples/Universal RP/12.1.2/URP Package Samples/CameraStacking/MixedFOV/MixedFOV/MixedFOVSettings.lighting.meta
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
