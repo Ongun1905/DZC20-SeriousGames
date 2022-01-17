@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637780283764429653
+      ticks: 637780285932910130
     m_Hash: 3049670314
   m_LockFileStatus:
     m_FilePath: C:/Users/Ongun1905/Documents/GitHub/DZC20-SeriousGames/SeriousGame/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637780281191819929
+      ticks: 637780285932931682
     m_Hash: 2214536063
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
