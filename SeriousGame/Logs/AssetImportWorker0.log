@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2021.2/staging' branch; Version is '2021.2.7f1 (6bd9e232123f) revision 7068130'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Enterprise' Language: 'en' Physical Memory: 8067 MB
+OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'en' Physical Memory: 16339 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-D:\Uni\2021.2.7f1\Editor\Unity.exe
+D:\2021.2.7f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/20181751/code/2ioe0-iis/DZC20-SeriousGames/SeriousGame
+C:/Users/Ongun1905/Documents/GitHub/DZC20-SeriousGames/SeriousGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55964
-Successfully changed project path to: C:/Users/20181751/code/2ioe0-iis/DZC20-SeriousGames/SeriousGame
-C:/Users/20181751/code/2ioe0-iis/DZC20-SeriousGames/SeriousGame
+58624
+Successfully changed project path to: C:/Users/Ongun1905/Documents/GitHub/DZC20-SeriousGames/SeriousGame
+C:/Users/Ongun1905/Documents/GitHub/DZC20-SeriousGames/SeriousGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,103 +47,105 @@ C:/Users/20181751/code/2ioe0-iis/DZC20-SeriousGames/SeriousGame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 253.63 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 109.04 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.7f1 (6bd9e232123f)
-[Subsystems] Discovering subsystems at path D:/Uni/2021.2.7f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/20181751/code/2ioe0-iis/DZC20-SeriousGames/SeriousGame/Assets
+[Subsystems] Discovering subsystems at path D:/2021.2.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Ongun1905/Documents/GitHub/DZC20-SeriousGames/SeriousGame/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA Quadro M1200 (ID=0x13b6)
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
     Vendor:   NVIDIA
-    VRAM:     4053 MB
-    Driver:   26.21.14.4250
+    VRAM:     6052 MB
+    Driver:   30.0.14.9649
 Initialize mono
-Mono path[0] = 'D:/Uni/2021.2.7f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Uni/2021.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'D:/Uni/2021.2.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
+Mono path[0] = 'D:/2021.2.7f1/Editor/Data/Managed'
+Mono path[1] = 'D:/2021.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/2021.2.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56588
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Uni/2021.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.069883 seconds.
+Register platform support module: D:/2021.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003659 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 294.23 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 112.15 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.409 seconds
+- Completed reload, in  0.866 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3411ms)
-		BeginReloadAssembly (1340ms)
+	ReloadAssembly (867ms)
+		BeginReloadAssembly (133ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (1665ms)
-			LoadAssemblies (1310ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (287ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (645ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (150ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (93ms)
-			SetupLoadedEditorAssemblies (1098ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (389ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (78ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (294ms)
-				BeforeProcessingInitializeOnLoad (4ms)
-				ProcessInitializeOnLoadAttributes (504ms)
-				ProcessInitializeOnLoadMethodAttributes (217ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (112ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (195ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.035564 seconds.
+Registered in 0.016355 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 387.73 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 101.69 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  8.789 seconds
+- Completed reload, in  2.015 seconds
 Domain Reload Profiling:
-	ReloadAssembly (8792ms)
-		BeginReloadAssembly (842ms)
+	ReloadAssembly (2016ms)
+		BeginReloadAssembly (192ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (18ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (66ms)
-		EndReloadAssembly (7550ms)
-			LoadAssemblies (908ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (1702ms)
+			LoadAssemblies (148ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1304ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (342ms)
-			SetupLoadedEditorAssemblies (5185ms)
+			SetupTypeCache (297ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (1162ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (62ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (388ms)
-				BeforeProcessingInitializeOnLoad (471ms)
-				ProcessInitializeOnLoadAttributes (3949ms)
-				ProcessInitializeOnLoadMethodAttributes (237ms)
-				AfterProcessingInitializeOnLoad (76ms)
-				EditorAssembliesLoaded (1ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (102ms)
+				BeforeProcessingInitializeOnLoad (134ms)
+				ProcessInitializeOnLoadAttributes (724ms)
+				ProcessInitializeOnLoadMethodAttributes (184ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (27ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.22 seconds
-Refreshing native plugins compatible for Editor in 3.38 ms, found 2 plugins.
+Failed to load shader (instanceID 424, GUID 7a569675ca1684464936259e1101c412)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.44 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4940 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 48 unused Assets / (1.6 MB). Loaded Objects now: 5431.
-Memory consumption went from 332.5 MB to 330.8 MB.
-Total: 20.907900 ms (FindLiveObjects: 0.993700 ms CreateObjectMapping: 1.045400 ms MarkObjects: 17.442000 ms  DeleteObjects: 1.423200 ms)
+Unloading 3971 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (0.7 MB). Loaded Objects now: 4400.
+Memory consumption went from 173.8 MB to 173.1 MB.
+Total: 12.502900 ms (FindLiveObjects: 0.384500 ms CreateObjectMapping: 0.312700 ms MarkObjects: 11.404600 ms  DeleteObjects: 0.398900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -157,19 +159,263 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 97354.956220 seconds.
-  path: Assets/New Prefab.prefab
-  artifactKey: Guid(804b7c3507af01641ba1e3b56062374b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Prefab.prefab using Guid(804b7c3507af01641ba1e3b56062374b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '396b98f79570a2ea57d26add5a35a404') in 0.333501 seconds 
+  Time since last request: 4708.622858 seconds.
+  path: Assets/Donut.fbx
+  artifactKey: Guid(2279b2aaeb12a4942a9d502224aa549c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Donut.fbx using Guid(2279b2aaeb12a4942a9d502224aa549c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8419621a0134b9866975a49d9cc902f0') in 0.919563 seconds 
+========================================================================
+Received Prepare
+Shader 'Hidden/Universal Render Pipeline/StencilDeferred': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/Simple Lit' not found
+Shader 'Universal Render Pipeline/Nature/SpeedTree7': dependency 'BillboardShader' shader 'Universal Render Pipeline/Nature/SpeedTree7 Billboard' not found
+Shader 'Universal Render Pipeline/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Simple Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Baked Lit': fallback shader 'Universal Render Pipeline/Unlit' not found
+Shader 'Universal Render Pipeline/Unlit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Particles/Simple Lit': fallback shader 'Universal Render Pipeline/Particles/Unlit' not found
+Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Complex Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/VR/SpatialMapping/Occlusion': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/VR/SpatialMapping/Wireframe': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 6.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2000 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 762 unused Assets / (30.3 MB). Loaded Objects now: 5758.
+Memory consumption went from 199.7 MB to 169.4 MB.
+Total: 23.099000 ms (FindLiveObjects: 0.533300 ms CreateObjectMapping: 0.484900 ms MarkObjects: 11.967600 ms  DeleteObjects: 10.111600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 223 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 223 unused Assets / (19.5 MB). Loaded Objects now: 5758.
+Memory consumption went from 160.3 MB to 140.7 MB.
+Total: 15.619600 ms (FindLiveObjects: 0.418600 ms CreateObjectMapping: 0.350600 ms MarkObjects: 7.921500 ms  DeleteObjects: 6.927900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 119.357916 seconds.
+  Time since last request: 340.755962 seconds.
   path: Assets/Ground_Time.prefab
   artifactKey: Guid(91dcc05092cc68541945afe907a4bc8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ground_Time.prefab using Guid(91dcc05092cc68541945afe907a4bc8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bea7096637224279714ab2de142ac585') in 3.522066 seconds 
+Start importing Assets/Ground_Time.prefab using Guid(91dcc05092cc68541945afe907a4bc8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Failed to create MaterialEnum, enum UnityEditor.Rendering.HighDefinition.TransparentCullMode not found
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialEnumDrawer:.ctor (string)
+System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
+System.Reflection.RuntimeConstructorInfo:DoInvoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.RuntimeConstructorInfo:Invoke (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.RuntimeType:CreateInstanceImpl (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[],System.Threading.StackCrawlMark&)
+System.Activator:CreateInstance (System.Type,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[])
+System.Activator:CreateInstance (System.Type,object[])
+UnityEditor.MaterialPropertyHandler:CreatePropertyDrawer (System.Type,string)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer Enum with arguments 'UnityEditor.Rendering.HighDefinition.TransparentCullMode'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create MaterialEnum, enum UnityEditor.Rendering.HighDefinition.OpaqueCullMode not found
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialEnumDrawer:.ctor (string)
+System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
+System.Reflection.RuntimeConstructorInfo:DoInvoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.RuntimeConstructorInfo:Invoke (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.RuntimeType:CreateInstanceImpl (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[],System.Threading.StackCrawlMark&)
+System.Activator:CreateInstance (System.Type,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[])
+System.Activator:CreateInstance (System.Type,object[])
+UnityEditor.MaterialPropertyHandler:CreatePropertyDrawer (System.Type,string)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer Enum with arguments 'UnityEditor.Rendering.HighDefinition.OpaqueCullMode'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: '6610b089ded3293756431bc02a0686fd') in 0.079330 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.741526 seconds.
-  path: Assets/Levels.prefab
-  artifactKey: Guid(c32203dca97b2f34a930a2fb99b4d1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Levels.prefab using Guid(c32203dca97b2f34a930a2fb99b4d1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '493abef254bb3250d837e4f17e422e1c') in 1.882335 seconds 
+  Time since last request: 17.980217 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Diagonal (Color).jpg
+  artifactKey: Guid(2ce5c55e85304b819a1826ecbc839aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Diagonal (Color).jpg using Guid(2ce5c55e85304b819a1826ecbc839aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42108f83f6f98f3450e4ce666c915baf') in 0.029652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SimpleNaturePack/Prefabs/Grass_01.prefab
+  artifactKey: Guid(f1fc5bb90ac285e4486771552d63bcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Prefabs/Grass_01.prefab using Guid(f1fc5bb90ac285e4486771552d63bcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a820bab8d118fd7bdd749f3360f1bcd3') in 0.021943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_GrassHillAlbedo3d3aba195e4d26ee.terrainlayer
+  artifactKey: Guid(3e6ddfc0308d453438db433028119e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_GrassHillAlbedo3d3aba195e4d26ee.terrainlayer using Guid(3e6ddfc0308d453438db433028119e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2ff53e1d1cb784f9643f0305706408') in 0.014988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/SimpleLowPolyNature/Models/Grass3.fbx
+  artifactKey: Guid(5d1150fbaa24aa24da8c409fd45a1433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleLowPolyNature/Models/Grass3.fbx using Guid(5d1150fbaa24aa24da8c409fd45a1433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '239287bd2311d69d8e444818e134b8f1') in 0.286070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/SimpleLowPolyNature/Prefabs/Grass2.prefab
+  artifactKey: Guid(7ca2fa2809968cf47852232e5d4a6e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleLowPolyNature/Prefabs/Grass2.prefab using Guid(7ca2fa2809968cf47852232e5d4a6e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b450ac378955cee15f28dc9b458e86e') in 0.017401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/SimpleLowPolyNature/Prefabs/Grass4.prefab
+  artifactKey: Guid(08bdb42a7413db34e867890b29e20ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleLowPolyNature/Prefabs/Grass4.prefab using Guid(08bdb42a7413db34e867890b29e20ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bfbab8edc338d26601f4cc36bfea7c8') in 0.018693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/SimpleNaturePack/Prefabs/Grass_02.prefab
+  artifactKey: Guid(ffbddc4ef9676cc419e81e06aaa836d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Prefabs/Grass_02.prefab using Guid(ffbddc4ef9676cc419e81e06aaa836d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fee4ea4736a20afe08b6a3db10cb63f') in 0.023063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/SimpleNaturePack/Models/Grass_01.fbx
+  artifactKey: Guid(ad3119cbd6dce024e8460ef32dec49df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Models/Grass_01.fbx using Guid(ad3119cbd6dce024e8460ef32dec49df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '235a4626bbe91995d47aaa7bd1d85768') in 0.021864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.832535 seconds.
+  path: Assets/Church
+  artifactKey: Guid(c6e9466cf567c374dbf5fda88c453b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Church using Guid(c6e9466cf567c374dbf5fda88c453b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a70076d1a70d1d62b64fae62232efc') in 0.002718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.809968 seconds.
+  path: Assets/Church/Prefabs
+  artifactKey: Guid(811b4c95b001d074b91358e92affe73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Church/Prefabs using Guid(811b4c95b001d074b91358e92affe73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f59e2b5e76f931857bba28f6736d3fc') in 0.004214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022300 seconds.
+  path: Assets/Church/Prefabs/Church.prefab
+  artifactKey: Guid(5d6825fa9f2b65046bb1d40e309ee4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Church/Prefabs/Church.prefab using Guid(5d6825fa9f2b65046bb1d40e309ee4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30aca3d436d5d558bbd214508ca4913c') in 0.373375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.683159 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat
+  artifactKey: Guid(749b9069dc4742c5bfa5c74644049926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat using Guid(749b9069dc4742c5bfa5c74644049926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd5269da362b3671a00493e953feec3c') in 0.162297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Church/Objects/Materials/DoorParts.mat
+  artifactKey: Guid(a921dc4b007475748ae3e453645271b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Church/Objects/Materials/DoorParts.mat using Guid(a921dc4b007475748ae3e453645271b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed48d09b9f27b919183f1b8b69520dfb') in 0.021441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/low poly medieval buildings/Materials/bricks_albedo.tga
+  artifactKey: Guid(48cdc5bf2aec7c844a9bbd0d926a57cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low poly medieval buildings/Materials/bricks_albedo.tga using Guid(48cdc5bf2aec7c844a9bbd0d926a57cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d93afbe28afd74aca3fe8f9eb9794af') in 0.017491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/low poly medieval buildings/Materials/plaster_albedo.tga
+  artifactKey: Guid(f913b132c761f0442b5657e6ccfeb234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low poly medieval buildings/Materials/plaster_albedo.tga using Guid(f913b132c761f0442b5657e6ccfeb234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae090f66853a7aa48710737d138422e2') in 0.016913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Drop Shadow.mat
+  artifactKey: Guid(b246c4190f4e46ec9352fe15a7b09ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Drop Shadow.mat using Guid(b246c4190f4e46ec9352fe15a7b09ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6915afabe5115fe0d4139145a02a4c33') in 0.032081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/low poly medieval buildings/Materials/wood_albedo.tga
+  artifactKey: Guid(e2ff4fd49718da9458f725421726c7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low poly medieval buildings/Materials/wood_albedo.tga using Guid(e2ff4fd49718da9458f725421726c7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '044369c4a403193a79cf62c721ffc7ff') in 0.017237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/low poly medieval buildings/house.fbx
+  artifactKey: Guid(81ae10d5415799d4db940c6fe498e861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low poly medieval buildings/house.fbx using Guid(81ae10d5415799d4db940c6fe498e861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27948f34640b214039108eb7b9511a30') in 0.352038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/low poly medieval buildings/Materials/buildings_2_albedo.tga
+  artifactKey: Guid(f61544de927f9b8459f549f4f9aeb08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low poly medieval buildings/Materials/buildings_2_albedo.tga using Guid(f61544de927f9b8459f549f4f9aeb08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0ef6a8e512c74b964d63bbf6dd831ff') in 0.014479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 163.104605 seconds.
+  path: Assets/Scenes/LevelTime.unity
+  artifactKey: Guid(7cee4af0230ede54db5788a1b3b68513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LevelTime.unity using Guid(7cee4af0230ede54db5788a1b3b68513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f75849f299849b63f8ad7d35a6f7b41') in 0.004608 seconds 
