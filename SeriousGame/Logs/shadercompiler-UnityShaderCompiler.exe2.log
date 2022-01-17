@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Base path: 'D:/2021.2.7f1/Editor/Data', plugins path 'D:/2021.2.7f1/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
 
@@ -11,3 +12,8 @@ Disabled keywords: DEBUG_DISPLAY DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON DYNAMIC
  ok=1 outsize=8434
 
 Cmd: shutdown
+=======
+Base path: 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+
+>>>>>>> master
