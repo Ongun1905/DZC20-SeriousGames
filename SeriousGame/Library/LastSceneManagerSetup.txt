@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/GravityLevel.unity
-=======
-- path: Assets/Scenes/Open World.unity
->>>>>>> master
+- path: Assets/Scenes/MainMenu.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
