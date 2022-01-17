@@ -45,49 +45,26 @@ The following packages were added:
   com.unity.timeline@1.4.8
   com.unity.ugui@1.0.0
 
-=== Thu Dec 23 12:17:00 2021
+=== Sat Jan  8 15:57:31 2022
 
 Packages were changed.
-Update Mode: updateDependencies
-
-The following packages were updated:
-  com.unity.collab-proxy from version 1.11.2 to 1.13.5
-  com.unity.ide.rider from version 2.0.7 to 3.0.7
-  com.unity.timeline from version 1.4.8 to 1.5.6
-
-<<<<<<< HEAD
-=== Mon Jan 17 10:34:16 2022
-=======
-<<<<<<< HEAD
-=== Thu Jan 13 11:42:58 2022
-=======
-=== Mon Jan 17 15:53:22 2022
->>>>>>> master
->>>>>>> master
-
-Packages were changed.
-Update Mode: updateDependencies
-
-The following packages were updated:
-  com.unity.collab-proxy from version 1.13.5 to 1.15.4
-  com.unity.ide.visualstudio from version 2.0.11 to 2.0.12
-  com.unity.timeline from version 1.5.6 to 1.6.3
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=== Mon Jan 17 15:46:25 2022
-
-Packages were changed.
-Update Mode: updateDependencies
+Update Mode: mergeDefaultDependencies
 
 The following packages were added:
-  com.unity.2d.sprite@1.0.0
-  com.unity.2d.tilemap@1.0.0
-  com.unity.ads@3.7.5
-  com.unity.analytics@3.6.12
-  com.unity.purchasing@4.1.1
-  com.unity.xr.legacyinputhelpers@2.1.8
-=======
->>>>>>> master
->>>>>>> master
+  com.unity.cinemachine@2.6.4
+  com.unity.inputsystem@1.0.2
+  com.unity.render-pipelines.high-definition@10.5.0
+
+=== Mon Jan 10 18:01:52 2022
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.cinemachine from version 2.6.4 to 2.8.2
+  com.unity.collab-proxy from version 1.11.2 to 1.15.4
+  com.unity.ide.rider from version 2.0.7 to 3.0.7
+  com.unity.ide.visualstudio from version 2.0.11 to 2.0.12
+  com.unity.inputsystem from version 1.0.2 to 1.2.0
+  com.unity.render-pipelines.high-definition from version 10.5.0 to 12.1.2
+  com.unity.timeline from version 1.4.8 to 1.6.3

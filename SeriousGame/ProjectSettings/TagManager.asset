@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Fire
+  - Chicken
   layers:
   - Default
   - TransparentFX
@@ -12,11 +14,11 @@ TagManager:
   - Water
   - UI
   - Top_UI
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Fire
+  - ground
+  - village
+  - castle
+  - sublevel1
   - 
   - 
   - 
